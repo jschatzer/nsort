@@ -1,9 +1,7 @@
 ### nsort 
 short for numeric or natural sort
 
-###### 1 2 10 
-instead of 
-###### 1 10 2
+**1 2 10** instead of **1 10 2**
 
 
 
