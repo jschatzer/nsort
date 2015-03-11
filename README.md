@@ -1,15 +1,17 @@
-### nsort
-###### short for numeric or natural sort
+### nsort 
+short for numeric or natural sort
 
-1 2 10 instead of 1 10 2
+###### 1 2 10 
+instead of 
+###### 1 10 2
 
 
 
 ###### Code adapted from answer by Svante 2014-12-05 in 
-(http://stackoverflow.com/questions/27307660/how-to-implement-natural-sort-in-common-lisp)
+http://stackoverflow.com/questions/27307660/how-to-implement-natural-sort-in-common-lisp
 
 ###### Idea from
-(https://groups.google.com/forum/#!searchin/comp.lang.lisp/human$20sort/comp.lang.lisp/8-NU77NMl-I/AMXgN3NMbpQJ)
+https://groups.google.com/forum/#!searchin/comp.lang.lisp/human$20sort/comp.lang.lisp/8-NU77NMl-I/AMXgN3NMbpQJ
 
 
 
