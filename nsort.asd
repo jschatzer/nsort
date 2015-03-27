@@ -5,6 +5,7 @@
   :description "Natural or Numeric Sort"
   :author "<schatzer.johann@gmail> using code from 'Svante' --> README"
   :license "BSD Simplified"
+  :depends-on (prove)
   :serial t
   :components ((:file "package")
                (:file "nsort")))
