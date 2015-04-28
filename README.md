@@ -43,3 +43,15 @@ https://groups.google.com/forum/#!searchin/comp.lang.lisp/human$20sort/comp.lang
 #### Testfile
 
 (prove:run #P"path-to/test.lisp")
+
+
+#### using string-designators seems to work, 28.4.2015 
+
+```
+(sort '("a20" #\0 "a2" a10 "a1") #'nsort:nstring<)  ; (#\0 "a1" "a2" A10 "a20")
+```
+except case convertion problems with 'bAr --> "bAr"
+```
+(sort '(bc2 |bc1| "bc10" a10 "a1") #'nsort:nstring<) ; ("a1" A10 |bc1| BC2 "bc10")
+(sort '(bc2  bc1  "bc10" a10 "a1") #'nsort:nstring<) ; (BC1 BC2 "a1" A10 "bc10")
+```
